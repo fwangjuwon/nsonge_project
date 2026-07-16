@@ -1,0 +1,41 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" rx="32" fill="#F7F3F2"/>
+  <rect x="56" y="56" width="1168" height="528" rx="24" fill="#FFFFFF" stroke="#E9DFDD"/>
+  <rect x="56" y="56" width="1168" height="72" rx="24" fill="#9D6D6F"/>
+  <circle cx="100" cy="92" r="10" fill="#F6D7D5"/>
+  <circle cx="132" cy="92" r="10" fill="#F6D7D5"/>
+  <circle cx="164" cy="92" r="10" fill="#F6D7D5"/>
+  <text x="210" y="101" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">NS Creative Studio</text>
+  <rect x="96" y="168" width="288" height="376" rx="18" fill="#FBF7F7" stroke="#E9DFDD"/>
+  <text x="128" y="214" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#493A3A">Button UI</text>
+  <rect x="128" y="244" width="224" height="42" rx="21" fill="#F0C3C1"/>
+  <text x="154" y="272" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#5F3F42">Product Category</text>
+  <rect x="128" y="304" width="178" height="42" rx="21" fill="#FFFFFF" stroke="#D8C5C2"/>
+  <text x="154" y="332" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5F4D4D">Mood Tags</text>
+  <rect x="128" y="364" width="196" height="42" rx="21" fill="#FFFFFF" stroke="#D8C5C2"/>
+  <text x="154" y="392" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5F4D4D">Image Ratio</text>
+  <rect x="128" y="456" width="224" height="52" rx="12" fill="#9D6D6F"/>
+  <text x="164" y="489" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Generate Image</text>
+  <rect x="432" y="168" width="360" height="376" rx="18" fill="#111827"/>
+  <text x="468" y="216" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Prompt Builder</text>
+  <rect x="468" y="250" width="288" height="18" rx="9" fill="#F0C3C1"/>
+  <rect x="468" y="286" width="236" height="14" rx="7" fill="#D8B4B1"/>
+  <rect x="468" y="320" width="260" height="14" rx="7" fill="#E7D7D4"/>
+  <rect x="468" y="354" width="214" height="14" rx="7" fill="#D8B4B1"/>
+  <rect x="468" y="410" width="288" height="72" rx="12" fill="#1F2937" stroke="#374151"/>
+  <text x="490" y="444" font-family="Inter, Arial, sans-serif" font-size="15" fill="#F9FAFB">Gemini-ready prompt</text>
+  <text x="490" y="468" font-family="Inter, Arial, sans-serif" font-size="13" fill="#D1D5DB">Role · Constraint · Style · Format</text>
+  <rect x="840" y="168" width="344" height="376" rx="18" fill="#FBF7F7" stroke="#E9DFDD"/>
+  <text x="876" y="216" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#493A3A">Generated Output</text>
+  <rect x="876" y="252" width="272" height="176" rx="16" fill="#E8D7D4"/>
+  <circle cx="940" cy="312" r="32" fill="#FFFFFF" opacity="0.75"/>
+  <path d="M898 399L972 331L1024 382L1062 350L1124 399H898Z" fill="#9D6D6F" opacity="0.72"/>
+  <rect x="876" y="456" width="128" height="36" rx="18" fill="#FFFFFF" stroke="#D8C5C2"/>
+  <text x="904" y="480" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5F4D4D">History</text>
+  <rect x="1020" y="456" width="128" height="36" rx="18" fill="#FFFFFF" stroke="#D8C5C2"/>
+  <text x="1050" y="480" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5F4D4D">Reuse</text>
+  <path d="M390 356H424" stroke="#9D6D6F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M778 356H828" stroke="#9D6D6F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M416 344L430 356L416 368" stroke="#9D6D6F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M820 344L834 356L820 368" stroke="#9D6D6F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

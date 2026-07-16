@@ -1,0 +1,246 @@
+{"kind":"deck","id":"pr/5rutx1","name":"Deck"}
+{"kind":"layout","layoutId":"25a58595-a7c3-47df-974c-5e62963bacba","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"12accb7d-ce83-44a5-b388-103b99c36162","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/itv3uq","slide":1,"title":"NS CREATIVE STUDIO","textShapes":9}
+{"kind":"textbox","id":"sh/udcn69gb","slide":1,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/h0n6h4zm","slide":1,"text":"AI Product Platform\nfor Commerce Content","textPreview":"AI Product Platform | for Commerce Content","textChars":40,"textLines":2,"bbox":[72,154,820,180]}
+{"kind":"textbox","id":"sh/gfu58jy1","slide":1,"text":"A case study on turning prompt engineering into a button-based workflow for PDs and designers.","textPreview":"A case study on turning prompt engineering into a button-based workflow for PDs and designers.","textChars":94,"textLines":1,"bbox":[76,332,760,90]}
+{"kind":"textbox","id":"sh/325ojehs","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/i1wna9g7","slide":1,"bbox":[840,150,330,390]}
+{"kind":"textbox","id":"sh/54n6lozy","slide":1,"text":"30m → 1m","textPreview":"30m → 1m","textChars":8,"textLines":1,"bbox":[880,204,250,64]}
+{"kind":"textbox","id":"sh/43e5cjyd","slide":1,"text":"Prompt writing time","textPreview":"Prompt writing time","textChars":19,"textLines":1,"bbox":[880,270,250,28]}
+{"kind":"textbox","id":"sh/z6147uho","slide":1,"text":"1.7×","textPreview":"1.7×","textChars":4,"textLines":1,"bbox":[880,342,250,64]}
+{"kind":"textbox","id":"sh/y5snypg3","slide":1,"text":"Production productivity","textPreview":"Production productivity","textChars":23,"textLines":1,"bbox":[880,412,250,28]}
+{"kind":"shape","id":"sh/0nqdszu1","slide":1,"bbox":[865,484,280,42]}
+{"kind":"textbox","id":"sh/1oze14bm","slide":1,"text":"Internal AI MVP · Production Use","textPreview":"Internal AI MVP · Production Use","textChars":32,"textLines":1,"bbox":[865,493,280,22]}
+{"kind":"notes","id":"nt/itv3uq","slide":1,"text":"제목: AI Product Platform for Commerce Content\n핵심 메시지: 이 프로젝트는 모델 데모가 아니라 실제 현업 워크플로우를 바꾼 AI 제품이다.\n들어갈 이미지: 제품 메인 화면 또는 방송/앱 배너 제작 결과 스크린샷. 현재 슬라이드는 포트폴리오용 placeholder 사용.\n다이어그램: 성과 중심 Hero 카드: 시간 단축, 생산성, MVP, 실제 운영.\n발표 대본: 오늘 소개할 프로젝트는 NS홈쇼핑에서 실제 운영 중인 AI 기반 콘텐츠 제작 플랫폼입니다. 핵심은 AI 모델을 붙인 것이 아니라, PD와 디자이너가 프롬프트를 몰라도 방송과 앱 배너 이미지를 만들 수 있게 만든 제품 경험입니다."}
+{"kind":"slide","id":"sl/wvk4i9","slide":2,"title":"NS CREATIVE STUDIO","textShapes":7}
+{"kind":"textbox","id":"sh/udczuhwj","slide":2,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/hgny5wfu","slide":2,"text":"The model was powerful.\nThe workflow was not.","textPreview":"The model was powerful. | The workflow was not.","textChars":45,"textLines":2,"bbox":[72,154,820,180]}
+{"kind":"textbox","id":"sh/wfehwre9","slide":2,"text":"현업 사용자는 AI를 쓰고 싶었지만, 프롬프트 작성 자체가 새로운 장벽이었습니다.","textPreview":"현업 사용자는 AI를 쓰고 싶었지만, 프롬프트 작성 자체가 새로운 장벽이었습니다.","textChars":45,"textLines":1,"bbox":[76,356,700,90]}
+{"kind":"textbox","id":"sh/7algzmxs","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/mpcz6hw7","slide":2,"bbox":[800,176,310,70]}
+{"kind":"textbox","id":"sh/9c3y1cfy","slide":2,"text":"프롬프트를 직접 작성","textPreview":"프롬프트를 직접 작성","textChars":11,"textLines":1,"bbox":[828,197,260,28]}
+{"kind":"shape","id":"sh/8buhs7ed","slide":2,"bbox":[800,286,310,70]}
+{"kind":"textbox","id":"sh/r6p0b6xw","slide":2,"text":"수십 번 수정","textPreview":"수십 번 수정","textChars":7,"textLines":1,"bbox":[828,307,260,28]}
+{"kind":"shape","id":"sh/6lwz21wr","slide":2,"bbox":[800,396,310,70]}
+{"kind":"textbox","id":"sh/43ul47m9","slide":2,"text":"좋은 결과 재사용 불가","textPreview":"좋은 결과 재사용 불가","textChars":12,"textLines":1,"bbox":[828,417,260,28]}
+{"kind":"notes","id":"nt/wvk4i9","slide":2,"text":"제목: The model was powerful. The workflow was not.\n핵심 메시지: 문제는 생성형 AI 자체가 아니라 현업 업무 흐름과 AI 사용 방식의 단절이었다.\n들어갈 이미지: 빈 프롬프트 입력창 앞에서 막히는 사용자 이미지 또는 기존 수작업 화면 캡처.\n다이어그램: 세 개의 pain point 카드: 직접 작성, 반복 수정, 재사용 부재.\n발표 대본: 처음 문제를 봤을 때 모델 성능이 부족하다고 생각하기 쉬웠습니다. 하지만 실제 현업의 병목은 달랐습니다. AI가 아무리 좋아도 사용자가 어떤 문장을 써야 할지 모르면 업무 속도는 빨라지지 않습니다."}
+{"kind":"slide","id":"sl/g6aav6","slide":3,"title":"NS CREATIVE STUDIO","textShapes":10}
+{"kind":"textbox","id":"sh/7u50ri98","slide":3,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/8veh0nqd","slide":3,"text":"Before, creation was\na trial-and-error loop.","textPreview":"Before, creation was | a trial-and-error loop.","textChars":44,"textLines":2,"bbox":[72,108,820,180]}
+{"kind":"textbox","id":"sh/twnitsry","slide":3,"text":"좋은 이미지를 얻기까지 사용자는 계속 문장을 고치고 다시 생성해야 했습니다.","textPreview":"좋은 이미지를 얻기까지 사용자는 계속 문장을 고치고 다시 생성해야 했습니다.","textChars":42,"textLines":1,"bbox":[76,268,700,90]}
+{"kind":"textbox","id":"sh/ypczud8b","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/jql0ni9w","slide":3,"bbox":[160,410,116,116]}
+{"kind":"textbox","id":"sh/kruhwnqh","slide":3,"text":"기획","textPreview":"기획","textChars":2,"textLines":1,"bbox":[168,454,100,26]}
+{"kind":"shape","id":"sh/ls3ipsr2","slide":3,"bbox":[286,468,74,1]}
+{"kind":"shape","id":"sh/a1szqd8f","slide":3,"bbox":[370,410,116,116]}
+{"kind":"textbox","id":"sh/b2l0jy90","slide":3,"text":"직접 작성","textPreview":"직접 작성","textChars":5,"textLines":1,"bbox":[378,454,100,26]}
+{"kind":"shape","id":"sh/but4filw","slide":3,"bbox":[496,468,74,1]}
+{"kind":"shape","id":"sh/qtkn6d4b","slide":3,"bbox":[580,410,116,116]}
+{"kind":"textbox","id":"sh/dwbmhs32","slide":3,"text":"생성","textPreview":"생성","textChars":2,"textLines":1,"bbox":[588,454,100,26]}
+{"kind":"shape","id":"sh/cv258nmh","slide":3,"bbox":[706,468,74,1]}
+{"kind":"shape","id":"sh/zyt4j2l8","slide":3,"bbox":[790,410,116,116]}
+{"kind":"textbox","id":"sh/yxknax4n","slide":3,"text":"수정","textPreview":"수정","textChars":2,"textLines":1,"bbox":[798,454,100,26]}
+{"kind":"shape","id":"sh/l0vmls3y","slide":3,"bbox":[916,468,74,1]}
+{"kind":"shape","id":"sh/0zm5cnmt","slide":3,"bbox":[1000,410,116,116]}
+{"kind":"textbox","id":"sh/f2947y5o","slide":3,"text":"재시도","textPreview":"재시도","textChars":3,"textLines":1,"bbox":[1008,454,100,26]}
+{"kind":"shape","id":"sh/u103yt4j","slide":3,"bbox":[850,300,208,100]}
+{"kind":"shape","id":"sh/it8z25s3","slide":3,"bbox":[420,300,430,100]}
+{"kind":"textbox","id":"sh/juhgvq9o","slide":3,"text":"The loop was the product problem.","textPreview":"The loop was the product problem.","textChars":33,"textLines":1,"bbox":[396,592,500,34]}
+{"kind":"notes","id":"nt/g6aav6","slide":3,"text":"제목: Before, creation was a trial-and-error loop.\n핵심 메시지: 기존 프로세스의 비용은 생성 시간이 아니라 반복 수정과 의사결정 피로였다.\n들어갈 이미지: 반복 생성 결과가 쌓인 화면 또는 여러 이미지 후보가 흩어진 보드.\n다이어그램: 기획 → 직접 작성 → 생성 → 수정 → 재시도 루프.\n발표 대본: 기존 흐름은 선형이 아니라 루프였습니다. 한 번 쓰고 끝나는 것이 아니라, 결과를 보고 다시 프롬프트를 고치고 또 생성합니다. 이 루프가 반복될수록 AI는 도움이 아니라 피로한 도구가 됩니다."}
+{"kind":"slide","id":"sl/wgirkl","slide":4,"title":"INSIGHT","textShapes":3}
+{"kind":"textbox","id":"sh/wbupojit","slide":4,"text":"INSIGHT","textPreview":"INSIGHT","textChars":7,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/balove18","slide":4,"text":"AI가 부족한 것이 아니라,\nAI를 사용하는 UX가 부족했다.","textPreview":"AI가 부족한 것이 아니라, | AI를 사용하는 UX가 부족했다.","textChars":34,"textLines":2,"bbox":[118,228,1040,190]}
+{"kind":"shape","id":"sh/a9c7m90n","slide":4,"bbox":[500,470,280,1]}
+{"kind":"textbox","id":"sh/9836t4j2","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"notes","id":"nt/wgirkl","slide":4,"text":"제목: AI가 부족한 것이 아니라, AI를 사용하는 UX가 부족했다.\n핵심 메시지: 제품의 핵심 인사이트는 모델 개선이 아니라 사용 경험 재설계였다.\n들어갈 이미지: 프롬프트 입력창 대신 버튼형 선택 UI가 강조된 제품 화면.\n다이어그램: 중앙 대형 인사이트 문장 하나만 사용.\n발표 대본: 제가 문제를 다시 정의한 지점입니다. 이 프로젝트는 더 좋은 모델을 찾는 프로젝트가 아니었습니다. 현업 사용자가 AI에게 일을 맡길 수 있는 인터페이스를 설계하는 프로젝트였습니다."}
+{"kind":"slide","id":"sl/n22s44","slide":5,"title":"NS CREATIVE STUDIO","textShapes":12}
+{"kind":"textbox","id":"sh/fil8ri1s","slide":5,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/gjepkn2d","slide":5,"text":"Research reframed\nthe user need.","textPreview":"Research reframed | the user need.","textChars":32,"textLines":2,"bbox":[72,100,820,180]}
+{"kind":"textbox","id":"sh/hknqt8jy","slide":5,"text":"PD와 디자이너는 Prompt가 아니라 업무 결과를 원했습니다.","textPreview":"PD와 디자이너는 Prompt가 아니라 업무 결과를 원했습니다.","textChars":35,"textLines":1,"bbox":[76,256,700,90]}
+{"kind":"textbox","id":"sh/2lw7md0j","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/3m58vi14","slide":5,"bbox":[120,390,230,126]}
+{"kind":"textbox","id":"sh/4ne9onip","slide":5,"text":"Input","textPreview":"Input","textChars":5,"textLines":1,"bbox":[142,414,190,30]}
+{"kind":"textbox","id":"sh/ponqxsja","slide":5,"text":"상품·방송 맥락","textPreview":"상품·방송 맥락","textChars":8,"textLines":1,"bbox":[140,462,190,28]}
+{"kind":"shape","id":"sh/qpwrqx0f","slide":5,"bbox":[400,390,230,126]}
+{"kind":"textbox","id":"sh/rq58z210","slide":5,"text":"Control","textPreview":"Control","textChars":7,"textLines":1,"bbox":[422,414,190,30]}
+{"kind":"textbox","id":"sh/vy5kfqh8","slide":5,"text":"스타일·문구 제약","textPreview":"스타일·문구 제약","textChars":9,"textLines":1,"bbox":[420,462,190,28]}
+{"kind":"shape","id":"sh/uxcj6lgn","slide":5,"bbox":[680,390,230,126]}
+{"kind":"textbox","id":"sh/hkn2h0ze","slide":5,"text":"Speed","textPreview":"Speed","textChars":5,"textLines":1,"bbox":[702,414,190,30]}
+{"kind":"textbox","id":"sh/gje18vyt","slide":5,"text":"반복 실험 최소화","textPreview":"반복 실험 최소화","textChars":9,"textLines":1,"bbox":[700,462,190,28]}
+{"kind":"shape","id":"sh/7ulkb6hc","slide":5,"bbox":[960,390,230,126]}
+{"kind":"textbox","id":"sh/6tcj21gr","slide":5,"text":"Memory","textPreview":"Memory","textChars":6,"textLines":1,"bbox":[982,414,190,30]}
+{"kind":"textbox","id":"sh/tw32dgz2","slide":5,"text":"좋은 결과 재사용","textPreview":"좋은 결과 재사용","textChars":9,"textLines":1,"bbox":[980,462,190,28]}
+{"kind":"notes","id":"nt/n22s44","slide":5,"text":"제목: Research reframed the user need.\n핵심 메시지: 사용자 리서치의 결론은 Prompt 작성 교육보다 업무 맥락을 입력 구조로 바꾸는 것이었다.\n들어갈 이미지: PD/디자이너 업무 화면, 상품 이미지, 배너 시안 등이 놓인 리서치 보드.\n다이어그램: Input, Control, Speed, Memory 네 가지 니즈 카드.\n발표 대본: 사용자는 AI 프롬프트를 배우고 싶어 한 것이 아니었습니다. 상품과 방송 맥락을 잘 반영한 결과물을 빨리 얻고 싶어 했습니다. 그래서 제품 요구사항은 프롬프트 에디터가 아니라 업무 맥락 입력 시스템으로 바뀌었습니다."}
+{"kind":"slide","id":"sl/bfumnj","slide":6,"title":"NS CREATIVE STUDIO","textShapes":9}
+{"kind":"textbox","id":"sh/0but0jep","slide":6,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/zalsryx4","slide":6,"text":"The solution was\na product layer for AI.","textPreview":"The solution was | a product layer for AI.","textChars":40,"textLines":2,"bbox":[72,96,820,180]}
+{"kind":"textbox","id":"sh/e9crytwj","slide":6,"text":"선택형 UI가 현업 언어를 AI가 이해할 수 있는 Prompt로 변환합니다.","textPreview":"선택형 UI가 현업 언어를 AI가 이해할 수 있는 Prompt로 변환합니다.","textChars":42,"textLines":1,"bbox":[76,254,700,90]}
+{"kind":"textbox","id":"sh/9gnax8f6","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/ofet43el","slide":6,"bbox":[90,402,190,92]}
+{"kind":"textbox","id":"sh/ne5svyx0","slide":6,"text":"Button UI","textPreview":"Button UI","textChars":9,"textLines":1,"bbox":[104,428,162,40]}
+{"kind":"shape","id":"sh/mdwb2twv","slide":6,"bbox":[288,448,16,1]}
+{"kind":"shape","id":"sh/pkjal4f2","slide":6,"bbox":[312,402,190,92]}
+{"kind":"textbox","id":"sh/4ja9szeh","slide":6,"text":"Prompt Builder","textPreview":"Prompt Builder","textChars":14,"textLines":1,"bbox":[326,428,162,40]}
+{"kind":"shape","id":"sh/i5sveh8r","slide":6,"bbox":[510,448,16,1]}
+{"kind":"shape","id":"sh/j6lw7m9c","slide":6,"bbox":[534,402,190,92]}
+{"kind":"textbox","id":"sh/k7udgrqx","slide":6,"text":"Gemini","textPreview":"Gemini","textChars":6,"textLines":1,"bbox":[548,428,162,40]}
+{"kind":"shape","id":"sh/583e9cr2","slide":6,"bbox":[732,448,16,1]}
+{"kind":"shape","id":"sh/6tcvih8n","slide":6,"bbox":[756,402,190,92]}
+{"kind":"textbox","id":"sh/7ulwbm98","slide":6,"text":"Image","textPreview":"Image","textChars":5,"textLines":1,"bbox":[770,428,162,40]}
+{"kind":"shape","id":"sh/svudkrqt","slide":6,"bbox":[954,448,16,1]}
+{"kind":"shape","id":"sh/tw3edwre","slide":6,"bbox":[978,402,190,92]}
+{"kind":"textbox","id":"sh/uxcfm18z","slide":6,"text":"History","textPreview":"History","textChars":7,"textLines":1,"bbox":[992,428,162,40]}
+{"kind":"notes","id":"nt/bfumnj","slide":6,"text":"제목: The solution was a product layer for AI.\n핵심 메시지: NS Creative Studio는 UI와 모델 사이에서 업무 의도를 Prompt로 변환하는 Product Layer다.\n들어갈 이미지: 제품의 옵션 선택 화면과 생성 결과 화면을 나란히 보여주는 이미지.\n다이어그램: Button UI → Prompt Builder → Gemini → Image Generation → History 흐름.\n발표 대본: 해결책은 AI 모델 앞에 제품 레이어를 만드는 것이었습니다. 사용자는 버튼과 옵션을 선택하고, 시스템은 그 선택을 Prompt Builder로 넘겨 AI가 이해하는 문맥으로 변환합니다."}
+{"kind":"slide","id":"sl/hkdxu9","slide":7,"title":"NS CREATIVE STUDIO","textShapes":13}
+{"kind":"textbox","id":"sh/nu1s3etk","slide":7,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/ova9cju5","slide":7,"text":"Workflow moved from\nwriting to choosing.","textPreview":"Workflow moved from | writing to choosing.","textChars":40,"textLines":2,"bbox":[72,96,820,180]}
+{"kind":"textbox","id":"sh/pw3a5obq","slide":7,"text":"빈 텍스트 박스 대신, 업무 선택지가 Prompt의 재료가 됩니다.","textPreview":"빈 텍스트 박스 대신, 업무 선택지가 Prompt의 재료가 됩니다.","textChars":37,"textLines":1,"bbox":[76,254,700,90]}
+{"kind":"textbox","id":"sh/epsr69c3","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/fq1szeto","slide":7,"bbox":[116,270,210,42]}
+{"kind":"textbox","id":"sh/0ra98ju9","slide":7,"text":"상품 카테고리","textPreview":"상품 카테고리","textChars":7,"textLines":1,"bbox":[116,279,210,22]}
+{"kind":"shape","id":"sh/1sja14be","slide":7,"bbox":[116,328,210,42]}
+{"kind":"textbox","id":"sh/q18r2pcr","slide":7,"text":"스타일 태그","textPreview":"스타일 태그","textChars":6,"textLines":1,"bbox":[116,337,210,22]}
+{"kind":"shape","id":"sh/r2h8vutc","slide":7,"bbox":[116,386,210,42]}
+{"kind":"textbox","id":"sh/f6lkfito","slide":7,"text":"인물 속성","textPreview":"인물 속성","textChars":5,"textLines":1,"bbox":[116,395,210,22]}
+{"kind":"shape","id":"sh/e5cjmds3","slide":7,"bbox":[116,444,210,42]}
+{"kind":"textbox","id":"sh/18n2h8bu","slide":7,"text":"이미지 비율","textPreview":"이미지 비율","textChars":6,"textLines":1,"bbox":[116,453,210,22]}
+{"kind":"shape","id":"sh/07u1o3a9","slide":7,"bbox":[116,502,210,42]}
+{"kind":"textbox","id":"sh/na5kjit0","slide":7,"text":"문구/단서","textPreview":"문구/단서","textChars":5,"textLines":1,"bbox":[116,511,210,22]}
+{"kind":"textbox","id":"sh/29wjqdsf","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[410,384,70,52]}
+{"kind":"shape","id":"sh/pwn2lsrq","slide":7,"bbox":[520,250,280,230]}
+{"kind":"textbox","id":"sh/ove1sna5","slide":7,"text":"Prompt\nBuilder","textPreview":"Prompt | Builder","textChars":14,"textLines":2,"bbox":[560,318,200,86]}
+{"kind":"textbox","id":"sh/3e107ytg","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[828,384,70,52]}
+{"kind":"shape","id":"sh/idsjetsv","slide":7,"bbox":[932,250,230,230]}
+{"kind":"textbox","id":"sh/mt0nm1cj","slide":7,"text":"Generated\nImage","textPreview":"Generated | Image","textChars":15,"textLines":2,"bbox":[966,320,160,80]}
+{"kind":"notes","id":"nt/hkdxu9","slide":7,"text":"제목: Workflow moved from writing to choosing.\n핵심 메시지: Prompt Engineering을 사용자의 글쓰기 문제가 아니라 제품의 선택 구조 문제로 바꿨다.\n들어갈 이미지: 실제 카테고리/태그 칩 UI 스크린샷.\n다이어그램: 업무 선택지 → Prompt Builder → Generated Image 변환 구조.\n발표 대본: 사용자가 문장을 잘 쓰게 만드는 대신, 선택지를 잘 고르게 만들었습니다. 이 선택지는 단순 UI가 아니라 Prompt의 구조화된 입력값입니다."}
+{"kind":"slide","id":"sl/hloesl","slide":8,"title":"NS CREATIVE STUDIO","textShapes":12}
+{"kind":"textbox","id":"sh/nahkbmpk","slide":8,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/8bqlkrq5","slide":8,"text":"Features were designed\nas user outcomes.","textPreview":"Features were designed | as user outcomes.","textChars":40,"textLines":2,"bbox":[72,96,820,180]}
+{"kind":"textbox","id":"sh/9cz2dw7a","slide":8,"text":"기능 목록이 아니라, 현업 사용자가 얻는 가치를 기준으로 제품을 나눴습니다.","textPreview":"기능 목록이 아니라, 현업 사용자가 얻는 가치를 기준으로 제품을 나눴습니다.","textChars":42,"textLines":1,"bbox":[76,254,700,90]}
+{"kind":"textbox","id":"sh/y5ojeh8n","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/z6hknmp8","slide":8,"bbox":[110,312,460,92]}
+{"kind":"textbox","id":"sh/07q1grqt","slide":8,"text":"Guided Prompt","textPreview":"Guided Prompt","textChars":13,"textLines":1,"bbox":[138,330,180,28]}
+{"kind":"textbox","id":"sh/l8z29c7e","slide":8,"text":"프롬프트 작성 장벽 제거","textPreview":"프롬프트 작성 장벽 제거","textChars":13,"textLines":1,"bbox":[340,334,200,42]}
+{"kind":"shape","id":"sh/i1s3q187","slide":8,"bbox":[650,312,460,92]}
+{"kind":"textbox","id":"sh/j21kj6ps","slide":8,"text":"Image Generation","textPreview":"Image Generation","textChars":16,"textLines":1,"bbox":[678,330,180,28]}
+{"kind":"textbox","id":"sh/bm9k7qpg","slide":8,"text":"방송·앱 소재 제작 가속","textPreview":"방송·앱 소재 제작 가속","textChars":13,"textLines":1,"bbox":[880,334,200,42]}
+{"kind":"shape","id":"sh/qlg3elov","slide":8,"bbox":[110,444,460,92]}
+{"kind":"textbox","id":"sh/d8r29076","slide":8,"text":"Fusion","textPreview":"Fusion","textChars":6,"textLines":1,"bbox":[138,462,180,28]}
+{"kind":"textbox","id":"sh/cnilgv6l","slide":8,"text":"상품과 인물 장면을 빠르게 구성","textPreview":"상품과 인물 장면을 빠르게 구성","textChars":17,"textLines":1,"bbox":[340,466,200,42]}
+{"kind":"shape","id":"sh/za9kbapc","slide":8,"bbox":[650,444,460,92]}
+{"kind":"textbox","id":"sh/y903i5or","slide":8,"text":"History","textPreview":"History","textChars":7,"textLines":1,"bbox":[678,462,180,28]}
+{"kind":"textbox","id":"sh/lcr2d07i","slide":8,"text":"좋은 결과를 팀 자산으로 저장","textPreview":"좋은 결과를 팀 자산으로 저장","textChars":16,"textLines":1,"bbox":[880,466,200,42]}
+{"kind":"notes","id":"nt/hloesl","slide":8,"text":"제목: Features were designed as user outcomes.\n핵심 메시지: 각 기능은 기술 단위가 아니라 사용자 가치 단위로 설계했다.\n들어갈 이미지: 프롬프트 생성, 이미지 생성, 합성, 히스토리 화면의 4분할 콜라주.\n다이어그램: 4개 outcome 카드: Guided Prompt, Image Generation, Fusion, History.\n발표 대본: 제품 기능은 API 기준으로 나누지 않았습니다. 사용자가 얻는 결과 기준으로 나눴습니다. 작성 장벽 제거, 제작 가속, 합성 장면 구성, 결과 재사용이 핵심 가치였습니다."}
+{"kind":"slide","id":"sl/yh2zwl","slide":9,"title":"NS CREATIVE STUDIO","textShapes":8}
+{"kind":"textbox","id":"sh/wridobah","slide":9,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/vqpcv6tw","slide":9,"text":"Architecture separated\nproduct logic from model calls.","textPreview":"Architecture separated | product logic from model calls.","textChars":54,"textLines":2,"bbox":[72,82,820,180]}
+{"kind":"textbox","id":"sh/upgvm1sb","slide":9,"text":"UI, Prompt Builder, AI API, History를 분리해 운영 가능한 플랫폼으로 만들었습니다.","textPreview":"UI, Prompt Builder, AI API, History를 분리해 운영 가능한 플랫폼으로 만들었습니다.","textChars":61,"textLines":1,"bbox":[76,232,780,90]}
+{"kind":"textbox","id":"sh/9o7utwbq","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/83ytkra5","slide":9,"bbox":[120,340,220,122]}
+{"kind":"textbox","id":"sh/72pcr6t0","slide":9,"text":"Frontend\nVue · Vuetify","textPreview":"Frontend | Vue · Vuetify","textChars":22,"textLines":2,"bbox":[138,374,184,52]}
+{"kind":"shape","id":"sh/m1gbi1sf","slide":9,"bbox":[352,401,26,1]}
+{"kind":"shape","id":"sh/dkbu50ra","slide":9,"bbox":[390,340,220,122]}
+{"kind":"textbox","id":"sh/sz2dwvap","slide":9,"text":"Backend\nSpring Boot","textPreview":"Backend | Spring Boot","textChars":19,"textLines":2,"bbox":[408,374,184,52]}
+{"kind":"shape","id":"sh/ylgfad47","slide":9,"bbox":[622,401,26,1]}
+{"kind":"shape","id":"sh/zmpgjils","slide":9,"bbox":[660,340,220,122]}
+{"kind":"textbox","id":"sh/k7yxcnmd","slide":9,"text":"Prompt Builder\nDomain Services","textPreview":"Prompt Builder | Domain Services","textChars":30,"textLines":2,"bbox":[678,374,184,52]}
+{"kind":"shape","id":"sh/l87yls3i","slide":9,"bbox":[892,401,26,1]}
+{"kind":"shape","id":"sh/ahwf6t4v","slide":9,"bbox":[930,340,220,122]}
+{"kind":"textbox","id":"sh/bi5wfylg","slide":9,"text":"AI + Data\nGemini · PostgreSQL","textPreview":"AI + Data | Gemini · PostgreSQL","textChars":29,"textLines":2,"bbox":[948,374,184,52]}
+{"kind":"notes","id":"nt/yh2zwl","slide":9,"text":"제목: Architecture separated product logic from model calls.\n핵심 메시지: AI API 호출을 서비스 전체와 분리해 유지보수와 운영 확장성을 확보했다.\n들어갈 이미지: 전체 시스템 아키텍처 다이어그램 또는 Cloud Run/GCP 구성 이미지.\n다이어그램: Frontend → Backend → Prompt Builder → AI + Data 계층 구조.\n발표 대본: 아키텍처에서 중요한 점은 AI 호출이 전체 제품에 흩어져 있지 않다는 것입니다. UI는 선택값을 보내고, 백엔드는 도메인 서비스와 Prompt Builder를 통해 모델 호출과 DB 이력을 분리합니다."}
+{"kind":"slide","id":"sl/2pnh3q","slide":10,"title":"NS CREATIVE STUDIO","textShapes":9}
+{"kind":"textbox","id":"sh/ahczqhcr","slide":10,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/xkni1wbi","slide":10,"text":"Production required\ngovernance, not just generation.","textPreview":"Production required | governance, not just generation.","textChars":52,"textLines":2,"bbox":[72,96,820,180]}
+{"kind":"textbox","id":"sh/cjehsrux","slide":10,"text":"실제 운영을 위해 권한, 사용량, 이력, 삭제 정책을 함께 설계했습니다.","textPreview":"실제 운영을 위해 권한, 사용량, 이력, 삭제 정책을 함께 설계했습니다.","textChars":40,"textLines":1,"bbox":[76,254,700,90]}
+{"kind":"textbox","id":"sh/nel0v2tg","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/2dczmxcv","slide":10,"bbox":[170,348,170,170]}
+{"kind":"textbox","id":"sh/pg3ixcbm","slide":10,"text":"ADMIN","textPreview":"ADMIN","textChars":5,"textLines":1,"bbox":[170,416,170,32]}
+{"kind":"shape","id":"sh/ofuho7u1","slide":10,"bbox":[378,348,170,170]}
+{"kind":"textbox","id":"sh/7a5076tk","slide":10,"text":"MANAGER","textPreview":"MANAGER","textChars":7,"textLines":1,"bbox":[378,416,170,32]}
+{"kind":"shape","id":"sh/69wjy1cz","slide":10,"bbox":[586,348,170,170]}
+{"kind":"textbox","id":"sh/4fa9wvy1","slide":10,"text":"USER","textPreview":"USER","textChars":4,"textLines":1,"bbox":[586,416,170,32]}
+{"kind":"shape","id":"sh/5gjq50fm","slide":10,"bbox":[845,326,250,86]}
+{"kind":"textbox","id":"sh/idsrulgb","slide":10,"text":"Daily Limit","textPreview":"Daily Limit","textChars":11,"textLines":1,"bbox":[875,356,190,30]}
+{"kind":"shape","id":"sh/je183qxw","slide":10,"bbox":[845,438,250,86]}
+{"kind":"textbox","id":"sh/wbq9svy5","slide":10,"text":"History","textPreview":"History","textChars":7,"textLines":1,"bbox":[875,468,190,30]}
+{"kind":"notes","id":"nt/2pnh3q","slide":10,"text":"제목: Production required governance, not just generation.\n핵심 메시지: 운영 가능한 AI 제품은 생성 기능뿐 아니라 권한과 통제 체계가 필요하다.\n들어갈 이미지: 관리자 사용자 관리 화면 또는 권한/사용량 대시보드.\n다이어그램: ADMIN/MANAGER/USER 권한 계층 + Daily Limit + History 운영 요소.\n발표 대본: MVP가 실제 서비스가 되려면 생성 버튼만으로는 부족합니다. 누가 무엇을 관리할 수 있는지, 하루에 얼마나 생성할 수 있는지, 생성 결과를 어떻게 보존하고 삭제할지까지 설계해야 했습니다."}
+{"kind":"slide","id":"sl/o0ussc","slide":11,"title":"NS CREATIVE STUDIO","textShapes":12}
+{"kind":"textbox","id":"sh/dcvqt0rq","slide":11,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/q9kril8f","slide":11,"text":"Every engineering choice\nserved the workflow.","textPreview":"Every engineering choice | served the workflow.","textChars":45,"textLines":2,"bbox":[72,96,820,180]}
+{"kind":"textbox","id":"sh/rat8rq90","slide":11,"text":"기술 선택은 스택 선호가 아니라 제품 요구에서 출발했습니다.","textPreview":"기술 선택은 스택 선호가 아니라 제품 요구에서 출발했습니다.","textChars":33,"textLines":1,"bbox":[76,254,700,90]}
+{"kind":"textbox","id":"sh/0fm9ovqh","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"textbox","id":"sh/1gvqx0r2","slide":11,"text":"JWT","textPreview":"JWT","textChars":3,"textLines":1,"bbox":[130,288,150,32]}
+{"kind":"textbox","id":"sh/ed4rm58b","slide":11,"text":"분리형 FE/BE와 컨테이너 운영에 맞는 Stateless 인증","textPreview":"분리형 FE/BE와 컨테이너 운영에 맞는 Stateless 인증","textChars":35,"textLines":1,"bbox":[310,290,750,34]}
+{"kind":"shape","id":"sh/zed8vq9w","slide":11,"bbox":[130,340,930,1]}
+{"kind":"textbox","id":"sh/o3m9sfqd","slide":11,"text":"MyBatis","textPreview":"MyBatis","textChars":7,"textLines":1,"bbox":[130,364,150,32]}
+{"kind":"textbox","id":"sh/94fa1k7y","slide":11,"text":"검색·계층·이력 조회 SQL을 명시적으로 제어","textPreview":"검색·계층·이력 조회 SQL을 명시적으로 제어","textChars":25,"textLines":1,"bbox":[310,366,750,34]}
+{"kind":"shape","id":"sh/dojihgry","slide":11,"bbox":[130,416,930,1]}
+{"kind":"textbox","id":"sh/sna1obqd","slide":11,"text":"Docker","textPreview":"Docker","textChars":6,"textLines":1,"bbox":[130,440,150,32]}
+{"kind":"textbox","id":"sh/rm10f69s","slide":11,"text":"로컬과 운영 환경의 차이를 최소화","textPreview":"로컬과 운영 환경의 차이를 최소화","textChars":18,"textLines":1,"bbox":[310,442,750,34]}
+{"kind":"shape","id":"sh/6lsjml87","slide":11,"bbox":[130,492,930,1]}
+{"kind":"textbox","id":"sh/1s32l0ru","slide":11,"text":"History DB","textPreview":"History DB","textChars":10,"textLines":1,"bbox":[130,516,150,32]}
+{"kind":"textbox","id":"sh/0ra1svq9","slide":11,"text":"AI 결과를 팀의 제작 자산으로 저장","textPreview":"AI 결과를 팀의 제작 자산으로 저장","textChars":20,"textLines":1,"bbox":[310,518,750,34]}
+{"kind":"shape","id":"sh/fq10jq9o","slide":11,"bbox":[130,568,930,1]}
+{"kind":"notes","id":"nt/o0ussc","slide":11,"text":"제목: Every engineering choice served the workflow.\n핵심 메시지: 기술 의사결정은 모두 현업 워크플로우를 안정적으로 운영하기 위한 선택이었다.\n들어갈 이미지: 코드/아키텍처/운영 화면이 겹친 엔지니어링 mood image.\n다이어그램: 기술 선택과 제품 이유를 매핑한 decision table.\n발표 대본: 이 프로젝트에서 중요한 엔지니어링 기준은 멋진 기술을 쓰는 것이 아니었습니다. JWT, MyBatis, Docker, History DB 모두 현업 워크플로우를 운영 가능한 제품으로 만들기 위한 선택이었습니다."}
+{"kind":"slide","id":"sl/l8a3y9","slide":12,"title":"NS CREATIVE STUDIO","textShapes":9}
+{"kind":"textbox","id":"sh/c7y94bud","slide":12,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/b658v6ds","slide":12,"text":"Prompt engineering became\na system, not a trick.","textPreview":"Prompt engineering became | a system, not a trick.","textChars":48,"textLines":2,"bbox":[72,84,820,180]}
+{"kind":"textbox","id":"sh/a5wr21c7","slide":12,"text":"Role, Constraint, Output, Style, Consistency를 분리해 안정적인 결과를 만들었습니다.","textPreview":"Role, Constraint, Output, Style, Consistency를 분리해 안정적인 결과를 만들었습니다.","textChars":66,"textLines":1,"bbox":[76,244,700,90]}
+{"kind":"textbox","id":"sh/p4nqtwv2","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/o3e90ruh","slide":12,"bbox":[92,390,178,84]}
+{"kind":"textbox","id":"sh/n258rmdw","slide":12,"text":"Role","textPreview":"Role","textChars":4,"textLines":1,"bbox":[106,418,150,28]}
+{"kind":"shape","id":"sh/21wry1wb","slide":12,"bbox":[280,432,25,1]}
+{"kind":"shape","id":"sh/10nqpwvq","slide":12,"bbox":[317,390,178,84]}
+{"kind":"textbox","id":"sh/0fe9wre5","slide":12,"text":"Constraint","textPreview":"Constraint","textChars":10,"textLines":1,"bbox":[331,418,150,28]}
+{"kind":"shape","id":"sh/ux0je10n","slide":12,"bbox":[505,432,25,1]}
+{"kind":"shape","id":"sh/vy90n6h8","slide":12,"bbox":[542,390,178,84]}
+{"kind":"textbox","id":"sh/wzi1gbit","slide":12,"text":"Output","textPreview":"Output","textChars":6,"textLines":1,"bbox":[556,418,150,28]}
+{"kind":"shape","id":"sh/h0ripgze","slide":12,"bbox":[730,432,25,1]}
+{"kind":"shape","id":"sh/m9gja10r","slide":12,"bbox":[767,390,178,84]}
+{"kind":"textbox","id":"sh/nap0j61w","slide":12,"text":"Style","textPreview":"Style","textChars":5,"textLines":1,"bbox":[781,418,150,28]}
+{"kind":"shape","id":"sh/8vi1crih","slide":12,"bbox":[955,432,25,1]}
+{"kind":"shape","id":"sh/9wrilwz2","slide":12,"bbox":[992,390,178,84]}
+{"kind":"textbox","id":"sh/y5gz6h0f","slide":12,"text":"Consistency","textPreview":"Consistency","textChars":11,"textLines":1,"bbox":[1006,418,150,28]}
+{"kind":"notes","id":"nt/l8a3y9","slide":12,"text":"제목: Prompt engineering became a system, not a trick.\n핵심 메시지: 프롬프트 품질을 개인 감각이 아니라 재사용 가능한 시스템 구조로 만들었다.\n들어갈 이미지: 시스템 프롬프트 구조 또는 Prompt Builder 내부 로직을 보여주는 추상 이미지.\n다이어그램: Role → Constraint → Output → Style → Consistency 파이프라인.\n발표 대본: 프롬프트 엔지니어링은 한 번 잘 쓴 문장이 아닙니다. Role, Constraint, Output Format, Style, Consistency를 분리해서 관리해야 반복 가능한 품질이 나옵니다."}
+{"kind":"slide","id":"sl/jzcwoa","slide":13,"title":"NS CREATIVE STUDIO","textShapes":8}
+{"kind":"textbox","id":"sh/8j6tk7qd","slide":13,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/7ixsr29s","slide":13,"text":"PM work turned an MVP\ninto an operating product.","textPreview":"PM work turned an MVP | into an operating product.","textChars":48,"textLines":2,"bbox":[72,86,820,180]}
+{"kind":"textbox","id":"sh/mhobix87","slide":13,"text":"공모전 아이디어를 실제 서비스로 바꾸려면 도입, 운영, 피드백 루프가 필요했습니다.","textPreview":"공모전 아이디어를 실제 서비스로 바꾸려면 도입, 운영, 피드백 루프가 필요했습니다.","textChars":46,"textLines":1,"bbox":[76,250,700,90]}
+{"kind":"textbox","id":"sh/h8zuxcru","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"shape","id":"sh/w7qto7qp","slide":13,"bbox":[170,376,130,130]}
+{"kind":"textbox","id":"sh/v6hcv294","slide":13,"text":"MVP","textPreview":"MVP","textChars":3,"textLines":1,"bbox":[170,428,130,28]}
+{"kind":"shape","id":"sh/u5obmx8j","slide":13,"bbox":[310,441,85,1]}
+{"kind":"shape","id":"sh/xcval8rq","slide":13,"bbox":[405,376,130,130]}
+{"kind":"textbox","id":"sh/cbmtcnq5","slide":13,"text":"Pilot","textPreview":"Pilot","textChars":5,"textLines":1,"bbox":[405,428,130,28]}
+{"kind":"shape","id":"sh/atwfuhgj","slide":13,"bbox":[545,441,85,1]}
+{"kind":"shape","id":"sh/ve5wnmx4","slide":13,"bbox":[640,376,130,130]}
+{"kind":"textbox","id":"sh/wfexwryp","slide":13,"text":"Production","textPreview":"Production","textChars":10,"textLines":1,"bbox":[640,428,130,28]}
+{"kind":"shape","id":"sh/xgnepwfa","slide":13,"bbox":[780,441,85,1]}
+{"kind":"shape","id":"sh/ihgfy1gv","slide":13,"bbox":[875,376,130,130]}
+{"kind":"textbox","id":"sh/jipwr6xg","slide":13,"text":"Iteration","textPreview":"Iteration","textChars":9,"textLines":1,"bbox":[875,428,130,28]}
+{"kind":"notes","id":"nt/jzcwoa","slide":13,"text":"제목: PM work turned an MVP into an operating product.\n핵심 메시지: 제품화의 핵심은 기능 구현 후 실제 현업 채택까지 연결하는 PM 과정이었다.\n들어갈 이미지: 사내 공모전, 파일럿 사용자, 운영 대시보드를 잇는 로드맵 이미지.\n다이어그램: MVP → Pilot → Production → Iteration 타임라인.\n발표 대본: 사내 공모전 MVP에서 끝났다면 좋은 데모였을 겁니다. 하지만 실제 서비스가 되려면 사용자 피드백, 권한 체계, 운영 데이터, 배포 구조를 갖춰야 했습니다. 이 부분이 PM 관점에서 가장 중요했습니다."}
+{"kind":"slide","id":"sl/y18r2w","slide":14,"title":"NS CREATIVE STUDIO","textShapes":11}
+{"kind":"textbox","id":"sh/jyloni5k","slide":14,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/kzupwnm5","slide":14,"text":"The outcome was\nworkflow adoption.","textPreview":"The outcome was | workflow adoption.","textChars":34,"textLines":2,"bbox":[72,86,820,180]}
+{"kind":"textbox","id":"sh/l036p8nq","slide":14,"text":"성과는 AI 기능 출시가 아니라 실제 방송과 앱 배너 제작에 쓰인 것입니다.","textPreview":"성과는 AI 기능 출시가 아니라 실제 방송과 앱 배너 제작에 쓰인 것입니다.","textChars":42,"textLines":1,"bbox":[76,250,700,90]}
+{"kind":"textbox","id":"sh/atsnqto3","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"textbox","id":"sh/bu1ojy5o","slide":14,"text":"30m → 1m","textPreview":"30m → 1m","textChars":8,"textLines":1,"bbox":[112,352,280,68]}
+{"kind":"textbox","id":"sh/wva5s369","slide":14,"text":"Prompt writing time","textPreview":"Prompt writing time","textChars":19,"textLines":1,"bbox":[112,428,280,36]}
+{"kind":"textbox","id":"sh/xwj6l8nu","slide":14,"text":"1.7×","textPreview":"1.7×","textChars":4,"textLines":1,"bbox":[500,352,220,68]}
+{"kind":"textbox","id":"sh/upw72x47","slide":14,"text":"Productivity","textPreview":"Productivity","textChars":12,"textLines":1,"bbox":[500,428,220,36]}
+{"kind":"textbox","id":"sh/vq5ov25s","slide":14,"text":"#1","textPreview":"#1","textChars":2,"textLines":1,"bbox":[820,352,220,68]}
+{"kind":"textbox","id":"sh/betgbutg","slide":14,"text":"Internal AI MVP","textPreview":"Internal AI MVP","textChars":15,"textLines":1,"bbox":[820,428,220,36]}
+{"kind":"textbox","id":"sh/qdkz2pcv","slide":14,"text":"Used for broadcast images and NS Home Shopping app banners","textPreview":"Used for broadcast images and NS Home Shopping app banners","textChars":58,"textLines":1,"bbox":[275,560,730,34]}
+{"kind":"notes","id":"nt/y18r2w","slide":14,"text":"제목: The outcome was workflow adoption.\n핵심 메시지: 프로젝트의 비즈니스 성과는 시간 단축, 생산성 향상, MVP 수상, 실제 제작 활용이다.\n들어갈 이미지: 방송 이미지와 앱 배너 활용 사례 콜라주.\n다이어그램: 3개 정량 성과 metric + 실제 활용 문장.\n발표 대본: 결과적으로 프롬프트 작성 시간은 약 30분에서 1분으로 줄었고, 생산성은 1.7배 향상되었습니다. 사내 AI 공모전 MVP 1위를 수상했고, 실제 방송 이미지와 앱 배너 제작에 활용되고 있습니다."}
+{"kind":"slide","id":"sl/basacg","slide":15,"title":"NS CREATIVE STUDIO","textShapes":8}
+{"kind":"textbox","id":"sh/ryh43e58","slide":15,"text":"NS CREATIVE STUDIO","textPreview":"NS CREATIVE STUDIO","textChars":18,"textLines":1,"bbox":[72,54,620,30]}
+{"kind":"textbox","id":"sh/szq5wjmt","slide":15,"text":"The lesson:\nAI products are workflow products.","textPreview":"The lesson: | AI products are workflow products.","textChars":46,"textLines":2,"bbox":[72,154,820,180]}
+{"kind":"textbox","id":"sh/d0zm5one","slide":15,"text":"모델을 붙이는 것보다 중요한 일은 사용자의 업무 방식을 다시 설계하는 것입니다.","textPreview":"모델을 붙이는 것보다 중요한 일은 사용자의 업무 방식을 다시 설계하는 것입니다.","textChars":44,"textLines":1,"bbox":[76,336,780,90]}
+{"kind":"textbox","id":"sh/i9o3q94r","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1160,654,48,24]}
+{"kind":"textbox","id":"sh/3ax4ze5c","slide":15,"text":"Start with the workflow","textPreview":"Start with the workflow","textChars":23,"textLines":1,"bbox":[780,230,360,34]}
+{"kind":"textbox","id":"sh/4b65sjmx","slide":15,"text":"Design the input structure","textPreview":"Design the input structure","textChars":26,"textLines":1,"bbox":[780,300,360,34]}
+{"kind":"textbox","id":"sh/5wfm1oni","slide":15,"text":"Make results reusable","textPreview":"Make results reusable","textChars":21,"textLines":1,"bbox":[780,370,360,34]}
+{"kind":"textbox","id":"sh/u5o3mp4v","slide":15,"text":"Ship governance early","textPreview":"Ship governance early","textChars":21,"textLines":1,"bbox":[780,440,360,34]}
+{"kind":"notes","id":"nt/basacg","slide":15,"text":"제목: The lesson: AI products are workflow products.\n핵심 메시지: AI Product Engineer의 역할은 모델과 사용자 업무 사이의 간극을 제품으로 메우는 것이다.\n들어갈 이미지: 제품이 사용자와 AI 모델 사이의 다리 역할을 하는 상징적 이미지.\n다이어그램: 4개 lesson statement: Workflow, Input, Reuse, Governance.\n발표 대본: 이 프로젝트를 통해 배운 가장 큰 교훈은 AI 제품은 결국 워크플로우 제품이라는 점입니다. 모델을 붙이는 것은 시작일 뿐이고, 진짜 제품 가치는 사용자가 자신의 업무 안에서 AI를 자연스럽게 쓸 수 있을 때 만들어집니다."}
