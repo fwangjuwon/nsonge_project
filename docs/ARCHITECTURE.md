@@ -248,33 +248,29 @@ erDiagram
 
 ## 11. 배포 아키텍처
 
-문서상 목표 배포 구조는 GCP 기반입니다.
+실제 운영 환경은 사내 Private Cloud 기반입니다.
 
 ```mermaid
 flowchart TB
     User["User Browser"]
-    CDN["Cloud CDN"]
-    GCS["Cloud Storage\nFrontend static files"]
-    Run["Cloud Run\nBackend API"]
-    SQL["Cloud SQL PostgreSQL\nPrivate IP"]
-    Secret["Secret Manager"]
-    AR["Artifact Registry"]
-    Build["Cloud Build"]
+    FE["Private Cloud\nFrontend Hosting"]
+    BE["Private Cloud\nBackend API"]
+    SQL["PostgreSQL"]
+    Secret["Internal Config / Secrets"]
+    AR["Private Artifact Repository"]
+    Build["Internal CI/CD"]
     Gitea["Private Gitea"]
-    NAT["Cloud NAT"]
     Gemini["Gemini API"]
 
-    User --> CDN
-    CDN --> GCS
-    User --> Run
-    Run --> SQL
-    Run --> Secret
-    Run --> NAT
-    NAT --> Gemini
+    User --> FE
+    FE --> BE
+    BE --> SQL
+    BE --> Secret
+    BE --> Gemini
     Gitea --> Build
     Build --> AR
-    AR --> Run
-    Build --> GCS
+    AR --> BE
+    Build --> FE
 ```
 
 ## 12. 보안 포인트

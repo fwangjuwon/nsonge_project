@@ -36,7 +36,7 @@ NS Creative Studio는 NS홈쇼핑에서 실제 운영 중인 AI 기반 콘텐츠
 
 ### Built With
 
-`Spring Boot` · `Vue 3` · `PostgreSQL` · `MyBatis` · `JWT` · `Gemini API` · `NanoBanana` · `Docker` · `GCP-ready Architecture`
+`Spring Boot` · `Vue 3` · `PostgreSQL` · `MyBatis` · `JWT` · `Gemini API` · `NanoBanana` · `Private Cloud` · `Docker for Local DB`
 
 ---
 
@@ -345,16 +345,15 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    Gitea["Private Gitea"] --> Build["Cloud Build"]
-    Build --> Artifact["Artifact Registry"]
-    Build --> GCS["Cloud Storage\nFrontend Static Hosting"]
-    Artifact --> Run["Cloud Run\nBackend API"]
-    Run --> SQL["Cloud SQL PostgreSQL"]
-    Run --> Secret["Secret Manager"]
-    Run --> AI["Gemini / NanoBanana"]
-    CDN["Cloud CDN"] --> GCS
-    User["User"] --> CDN
-    User --> Run
+    Gitea["Private Gitea"] --> CI["Internal CI/CD"]
+    CI --> Artifact["Private Artifact Repository"]
+    CI --> FE["Private Cloud\nFrontend Hosting"]
+    Artifact --> BE["Private Cloud\nBackend API"]
+    BE --> DB["PostgreSQL"]
+    BE --> Config["Internal Config / Secrets"]
+    BE --> AI["Gemini / NanoBanana"]
+    User["Internal Users"] --> FE
+    FE --> BE
 ```
 
 Architecture detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
@@ -366,7 +365,7 @@ Architecture detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 ### Why JWT?
 
 이 서비스는 사내 업무 도구이며, 프론트엔드와 백엔드가 분리되어 있습니다.  
-세션 기반 인증보다 Stateless JWT가 배포와 확장에 단순했고, API 서버를 Cloud Run 같은 컨테이너 환경에서 운영하기에도 적합했습니다.
+세션 기반 인증보다 Stateless JWT가 Private Cloud 환경에서 프론트엔드와 API 서버를 분리해 운영하기에 단순했습니다.
 
 Access Token은 1시간으로 제한하고, PoC/MVP 단계에서는 Refresh Token을 제외했습니다. 복잡한 인증 플로우보다 빠른 검증과 운영 안정성을 우선했습니다.
 
@@ -428,9 +427,9 @@ MyBatis는 SQL을 명시적으로 제어할 수 있어 다음 요구에 적합�
 
 ### Why Docker?
 
-백엔드, 프론트엔드, DB 초기화 구조를 환경에 독립적으로 유지하기 위해 Docker를 사용했습니다.
+Docker는 운영 인프라의 핵심이 아니라, 개발 단계에서 PostgreSQL을 로컬에 빠르게 띄우기 위한 도구로 사용했습니다.
 
-로컬에서는 PostgreSQL 컨테이너로 빠르게 개발 환경을 만들고, 운영 방향은 Cloud Run 기반 컨테이너 배포로 확장할 수 있도록 설계했습니다.
+팀원이 동일한 DB 환경에서 API를 개발하고 테스트할 수 있도록 로컬 개발 환경을 표준화하는 데 집중했습니다.
 
 ---
 
@@ -507,7 +506,8 @@ MidJourney 스타일과 NanoBanana 스타일을 구분해, 같은 사용자 선�
 | Persistence | MyBatis | 명시적 SQL 제어와 검색/계층/이력 조회 튜닝에 적합 |
 | AI | Gemini API | 구조화된 업무 조건을 고품질 Prompt로 변환 |
 | Image | NanoBanana | Prompt 기반 이미지 생성과 참조 이미지 활용 |
-| Infra | Docker | 로컬/운영 환경 차이를 줄이고 Cloud Run 배포 방향과 호환 |
+| Infra | Private Cloud | 사내 보안/운영 정책에 맞춘 실제 서비스 운영 환경 |
+| Local Dev | Docker | 개발 단계에서 PostgreSQL DB를 빠르게 띄우고 테스트 환경을 통일 |
 
 Technical detail: [docs/TECHNICAL.md](docs/TECHNICAL.md)
 
