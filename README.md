@@ -15,6 +15,16 @@ NS Creative Studio는 NS홈쇼핑에서 실제 운영 중인 AI 기반 콘텐츠
 
 이 프로젝트는 사내 AI 공모전 MVP 1위를 수상한 뒤 실제 서비스로 운영되고 있으며, 현재 방송 이미지 제작과 NS홈쇼핑 앱 배너 제작에 활용되고 있습니다.
 
+### My Role
+
+| Area | Contribution |
+|---|---|
+| Role | PM · 기획 · Backend 개발 · AI Workflow 설계 |
+| Team | 3인 개발 팀 |
+| Ownership | 아이디어 발굴, 문제 정의, 제품 기획, 핵심 Prompt Builder 설계, Backend/API 개발, 현업 커뮤니케이션, 발표 |
+| Period | 2025.12 - 현재 운영 중 |
+| Outcome | 사내 AI 아이디어 공모전 MVP 1위 수상 후 전사 프로젝트로 전환 |
+
 ### Impact
 
 | Metric | Before | After |
@@ -27,6 +37,72 @@ NS Creative Studio는 NS홈쇼핑에서 실제 운영 중인 AI 기반 콘텐츠
 ### Built With
 
 `Spring Boot` · `Vue 3` · `PostgreSQL` · `MyBatis` · `JWT` · `Gemini API` · `NanoBanana` · `Docker` · `GCP-ready Architecture`
+
+---
+
+## My Contribution
+
+이 프로젝트는 3인 팀 프로젝트였고, 저는 **아이디어 발굴부터 기획, 핵심 개발, PM, 발표까지 프로젝트 전반을 주도**했습니다.
+
+### 1. Idea & Product Planning
+
+초기 1차 PoC는 영상 클립 자동 병합 기능이었습니다. 기술 검증은 가능했지만 현업 시연에서 “편리하긴 한데 실제로 쓸 것 같지는 않다”는 피드백을 받았습니다.
+
+저는 이 피드백을 단순 실패가 아니라 문제 재정의의 신호로 봤습니다.
+
+> “현업이 원하는 것은 AI 기능 자체가 아니라, 콘텐츠 제작 시간을 줄이는 실질적인 Workflow다.”
+
+이후 방향을 이미지 기반 프롬프트 자동 생성 플랫폼으로 피벗했고, 기획서를 전면 재작성했습니다.
+
+제가 주도한 기획 범위:
+
+- 현업 PD/디자이너 인터뷰 기반 Pain Point 정리
+- “프롬프트를 버튼화한다”는 핵심 제품 아이디어 도출
+- 사용자 흐름, 기능 범위, 화면 구조 설계
+- 사내 AI 공모전 제출용 기획서 및 발표 스토리 구성
+- MVP 이후 실제 운영 전환을 위한 단계별 적용 범위 설계
+
+### 2. Backend & AI Workflow Development
+
+제가 가장 집중한 개발 영역은 **Prompt Builder와 AI Workflow**였습니다.
+
+Prompt Builder는 사용자의 선택값을 단순히 문자열로 이어붙이는 기능이 아닙니다. 상품 카테고리, 스타일 태그, 인물 속성, 이미지 비율, 문구 조건을 AI가 이해할 수 있는 커머스 이미지 제작 문맥으로 변환하는 핵심 Product Intelligence Layer입니다.
+
+제가 주도한 개발 범위:
+
+- Prompt Builder 설계 및 개발
+- Gemini API 연동
+- NanoBanana 기반 이미지 생성 파이프라인 개발
+- 상품/인물/합성/텍스트 오버레이 이미지 생성 API 설계
+- 시스템 프롬프트 구조 설계
+- 생성 품질과 일관성 확보를 위한 반복 실험
+- Spring Boot 기반 REST API 개발
+- Prompt History 저장 및 조회 구조 설계
+
+### 3. Frontend Product Flow
+
+프론트엔드에서는 “AI 도구처럼 보이는 화면”이 아니라 **현업 업무자가 이해할 수 있는 선택형 Workflow**를 만드는 데 집중했습니다.
+
+제가 기획/구현에 기여한 부분:
+
+- 카테고리/태그 기반 버튼형 Prompt 생성 UX 설계
+- 상품 사진, 인물 사진, 합성 이미지 생성 흐름 설계
+- 생성 결과 복사, 이미지 생성, History 재사용 흐름 설계
+- Vue 기반 주요 화면 구현 주도
+
+### 4. PM & Stakeholder Management
+
+MVP 이후 실제 서비스로 이어지기 위해서는 개발만으로는 부족했습니다.
+
+제가 맡은 PM 역할:
+
+- 개발자 3인 일정 관리 및 업무 분배
+- TV트렌드콘텐츠팀 등 현업 부서와 요구사항 조율
+- 클라우드/인프라 담당 부서와 운영 환경 협의
+- 사내 AI 공모전 발표 자료 제작 및 발표
+- 전사 타운홀 미팅 발표 자료 제작 및 발표
+- MVP 수상 이후 전사 프로젝트 전환 설득
+- 운영 이관 후 적용 범위 확대 주도
 
 ---
 
@@ -84,7 +160,45 @@ flowchart LR
 
 ---
 
-## 3. Solution
+## 3. Project Journey
+
+이 프로젝트는 처음부터 지금의 형태였던 것이 아닙니다.  
+1차 PoC 실패를 인정하고, 현업 피드백을 기반으로 문제를 다시 정의하면서 제품 방향이 바뀌었습니다.
+
+```mermaid
+flowchart LR
+    A["문제 발굴\n콘텐츠 제작 비효율"] --> B["1차 PoC\n영상 클립 자동 병합"]
+    B --> C["현업 피드백\n쓸 것 같지 않다"]
+    C --> D["피벗\n프롬프트 자동 생성"]
+    D --> E["MVP\n사내 AI 공모전 1위"]
+    E --> F["Production\n방송 이미지 / 앱 배너 활용"]
+```
+
+### 1차 PoC - 실패
+
+초기 아이디어는 영상 클립 자동 병합이었습니다. 기술적으로는 구현 가능했지만, 현업 시연 이후 실제 사용 의향이 낮다는 피드백을 받았습니다.
+
+이때 중요한 결정은 **기술 검증 성공을 제품 성공으로 착각하지 않는 것**이었습니다.
+
+### Pivot - 문제 재정의
+
+현업의 진짜 병목은 영상 병합이 아니라, AI 이미지 생성 과정에서 반복되는 Prompt 작성과 수정이었습니다.
+
+그래서 제품 방향을 다음처럼 전환했습니다.
+
+- 영상 클립 자동화 → AI 이미지 콘텐츠 제작 플랫폼
+- 텍스트 프롬프트 입력 → 버튼 기반 업무 선택 UI
+- 단일 생성 기능 → Prompt 생성, 이미지 생성, History 재사용 Workflow
+
+### MVP → Production
+
+피벗 이후 사내 AI 아이디어 공모전에서 MVP 1위를 수상했고, 이후 실제 운영 서비스로 전환되었습니다.
+
+현재는 방송 이미지 제작과 NS홈쇼핑 앱 배너 제작에 활용되고 있습니다.
+
+---
+
+## 4. Solution
 
 NS Creative Studio는 사용자의 업무 선택을 AI가 이해할 수 있는 Prompt로 변환하는 Product Layer입니다.
 
@@ -128,7 +242,7 @@ sequenceDiagram
 
 ---
 
-## 4. Product Features
+## 5. Product Features
 
 ### Guided Prompt Creation
 
@@ -175,7 +289,7 @@ ADMIN, MANAGER, USER 권한을 나누고 사용자/카테고리/태그/인물 �
 
 ---
 
-## 5. Architecture
+## 6. Architecture
 
 NS Creative Studio는 Frontend, Backend, Database, External AI API가 분리된 구조입니다.
 
@@ -247,7 +361,7 @@ Architecture detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 
 ---
 
-## 6. Engineering Decisions
+## 7. Engineering Decisions
 
 ### Why JWT?
 
@@ -320,7 +434,7 @@ MyBatis는 SQL을 명시적으로 제어할 수 있어 다음 요구에 적합�
 
 ---
 
-## 7. Prompt Engineering
+## 8. Prompt Engineering
 
 이 제품의 Prompt Engineering 철학은 “멋진 문장 생성”이 아니라 **업무 의도를 안정적으로 이미지 모델에 전달하는 것**입니다.
 
@@ -380,7 +494,7 @@ MidJourney 스타일과 NanoBanana 스타일을 구분해, 같은 사용자 선�
 
 ---
 
-## 8. Tech Stack
+## 9. Tech Stack
 
 | Area | Tech | Why |
 |---|---|---|
@@ -399,7 +513,7 @@ Technical detail: [docs/TECHNICAL.md](docs/TECHNICAL.md)
 
 ---
 
-## 9. API Overview
+## 10. API Overview
 
 NS Creative Studio API는 `/api` prefix를 사용하며, 대부분의 요청은 JWT 인증이 필요합니다.
 
@@ -434,7 +548,7 @@ Full API summary: [docs/API.md](docs/API.md)
 
 ---
 
-## 10. Project Results
+## 11. Project Results
 
 이 프로젝트는 단순 PoC로 끝나지 않고 실제 업무에 연결되었습니다.
 
@@ -450,7 +564,7 @@ Full API summary: [docs/API.md](docs/API.md)
 
 ---
 
-## 11. Lessons Learned
+## 12. Lessons Learned
 
 ### 1. AI Product의 병목은 모델이 아니라 UX일 수 있다
 
@@ -487,7 +601,7 @@ AI 기능만 만든 것이 아니라 운영 가능한 제품으로 확장한 것
 
 ---
 
-## 12. Repository Guide
+## 13. Repository Guide
 
 ```text
 nsonge_project/
