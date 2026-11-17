@@ -1,0 +1,6 @@
+[submodule "creative-studio-bo"]
+	path = creative-studio-bo
+	url = https://github.com/fwangjuwon/creative-studio-bo.git
+[submodule "creative-studio-fo"]
+	path = creative-studio-fo
+	url = https://github.com/fwangjuwon/creative-studio-fo.git
